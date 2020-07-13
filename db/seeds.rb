@@ -6,3 +6,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+links_list = [
+  [ "g", "google.com" ],
+  [ "f", "facebook.com" ],
+  [ "r", "reddit.com" ],
+  [ "b", "bing.com" ]
+]
+
+links_list.each do |s, l|
+  Link.create(short_link: s, full_link: l)
+end
