@@ -2,7 +2,7 @@
 
 This README documents the steps to get `urlke` up and running.
 
-Things to note:
+## Things to note:
 
 * Ruby version: ruby 2.6.3p62
 
@@ -15,3 +15,14 @@ Things to note:
 * Database initialization
 
 * ...
+
+
+## How to run
+
+run `bundle install`
+
+run `rails db:setup` (assuming you want to use `seeds.rb`)
+
+run `rails s`
+
+open up `localhost:3000`
