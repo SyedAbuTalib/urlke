@@ -11,7 +11,9 @@ class LinksController < ApplicationController
 
   # GET /links/1
   # GET /links/1.json
-  def show; end
+  def show
+    redirection
+  end
 
   # GET /links/new
   def new
@@ -71,5 +73,9 @@ class LinksController < ApplicationController
   # Only allow a list of trusted parameters through.
   def link_params
     params.require(:link).permit(:short_link, :full_link)
+  end
+
+  def redirection
+    redirect_to @link.full_link
   end
 end

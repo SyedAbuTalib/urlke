@@ -8,10 +8,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 links_list = [
-  [ "g", "google.com" ],
-  [ "f", "facebook.com" ],
-  [ "r", "reddit.com" ],
-  [ "b", "bing.com" ]
+  [ "g", "http://www.google.com" ],
+  [ "f", "http://www.facebook.com" ],
+  [ "r", "http://www.reddit.com" ],
+  [ "b", "http://www.bing.com" ]
 ]
 
 links_list.each do |s, l|
