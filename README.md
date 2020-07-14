@@ -1,24 +1,28 @@
-# README
+# urlke
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README documents the steps to get `urlke` up and running.
 
-Things you may want to cover:
+## Things to note:
 
-* Ruby version
+* Ruby version: ruby 2.6.3p62
 
-* System dependencies
+* Rails version: 6.0.3.2
 
-* Configuration
+* Configuration: run `bundle install`
 
 * Database creation
 
 * Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
 * ...
+
+
+## How to run
+
+run `bundle install`
+
+run `rails db:setup` (assuming you want to use `seeds.rb`)
+
+run `rails s`
+
+open up `localhost:3000`
