@@ -14,3 +14,31 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  background-color: #f6fafb;
+}
+
+.credits_container {
+  margin-top: 24px;
+}
+
+.credits_text {
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.heart {
+  color: #e25555;
+}
+
+.fake_user {
+  margin: auto;
+  width: 40%;
+}
