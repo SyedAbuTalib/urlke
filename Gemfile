@@ -43,6 +43,9 @@ group :development do
   gem 'pry'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Stuff I added
+  gem "better_errors", "~> 2.7"
+  gem "binding_of_caller", "~> 0.8.0"
 end
 
 group :test do
