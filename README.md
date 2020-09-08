@@ -23,6 +23,8 @@ run `bundle install`
 
 run `rails db:setup` (assuming you want to use `seeds.rb`)
 
+run `rails webpacker:install`
+
 run `rails s`
 
 open up `localhost:3000`
